@@ -1,0 +1,35 @@
+.cadre {
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #293036;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.titre {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.descriptif {
+    color: white;
+    text-align: center;
+}
+
+.image {
+    height: 250px;
+    width: 200px;
+}
+
+.bouton {
+    width: 100px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
