@@ -1,0 +1,14 @@
+.ListeProduits {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.CategorieCarte {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.CategorieTitre {
+    text-align: center;
+}

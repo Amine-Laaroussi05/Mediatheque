@@ -1,0 +1,11 @@
+<div class="CategorieCarte">
+    <h2 class="CategorieTitre">
+        {{titre}}
+    </h2>
+    <mat-divider></mat-divider>
+    <ul class="ListeProduits" *ngFor="let carte of cartes">
+        <li>
+            <app-product-card [titre]="titreImage" [image]="image" [descriptif]="descriptifImage"></app-product-card>
+        </li>
+    </ul>
+</div>
