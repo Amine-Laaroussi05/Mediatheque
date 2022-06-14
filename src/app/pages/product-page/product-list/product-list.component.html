@@ -5,7 +5,7 @@
     <mat-divider></mat-divider>
     <ul class="ListeProduits" *ngFor="let carte of cartes">
         <li>
-            <app-product-card [titre]="titreImage" [image]="image" [descriptif]="descriptifImage"></app-product-card>
+            <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.synopsis"></app-product-card>
         </li>
     </ul>
 </div>
