@@ -3,9 +3,11 @@
         {{titre}}
     </h2>
     <mat-divider></mat-divider>
-    <ul class="ListeProduits" *ngFor="let carte of cartes">
-        <li>
-            <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.synopsis"></app-product-card>
-        </li>
-    </ul>
+    <div class="ListeProduits">
+        <ul *ngFor="let carte of cartes">
+            <li>
+                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.synopsis"></app-product-card>
+            </li>
+        </ul>
+    </div>
 </div>
