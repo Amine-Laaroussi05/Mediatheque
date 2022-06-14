@@ -1,3 +1,5 @@
-<div *ngFor="let film of films">
-    <app-product-list [titre]="'Liste des films'" [titreImage]="film.nom" [image]="film.img" [descriptifImage]="film.synopsis" [cartes]="films"></app-product-list>
+<div *ngFor="let film of films, let index  = index">
+    <div *ngIf="index <1">
+        <app-product-list [titre]="'Liste des films'" [titreImage]="film.nom" [image]="film.img" [descriptifImage]="film.synopsis" [cartes]="films"></app-product-list>
+    </div>
 </div>
