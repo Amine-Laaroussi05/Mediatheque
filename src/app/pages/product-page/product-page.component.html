@@ -1,5 +1,11 @@
-<div *ngFor="let film of films, let index  = index">
+<div *ngFor="let film of films, let index  = index" class="films">
     <div *ngIf="index <1">
         <app-product-list [titre]="'Liste des films'" [titreImage]="film.nom" [image]="film.img" [descriptifImage]="film.synopsis" [cartes]="films"></app-product-list>
+    </div>
+</div>
+
+<div *ngFor="let album of albums, let index  = index" class="albums">
+    <div *ngIf="index <1">
+        <app-product-list [titre]="'Liste des albums'" [titreImage]="album.nom" [image]="album.img" [descriptifImage]="album.details" [cartes]="albums"></app-product-list>
     </div>
 </div>
