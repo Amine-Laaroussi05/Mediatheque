@@ -9,7 +9,7 @@
 
     </div>
 
-    <p class="descriptif">{{descriptif}}</p>
+    <p class="descriptif">{{(descriptif| slice: 0:500) + (descriptif.length > 500? '...' : '')}}</p>
 
     <button mat-raised-button class="bouton">Détails</button>
 </div>
