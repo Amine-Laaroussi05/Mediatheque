@@ -9,9 +9,9 @@
 
     <!-- On parcourt le tableau de cartes (e.g: films ou albums) et on appelle la composante enfant : Product Card pour lui passer les attributs du parent -->
     <div class="ListeProduits">
-        <ul *ngFor="let carte of cartes">
+        <ul *ngFor="let product of products">
             <li>
-                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.descriptif" [id]="carte.id"></app-product-card>
+                <app-product-card [product]="product"></app-product-card>
             </li>
         </ul>
     </div>

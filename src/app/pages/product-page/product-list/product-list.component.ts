@@ -11,19 +11,7 @@ export class ProductListComponent implements OnInit {
   titre!: string;
 
   @Input()
-  titreImage!: string;
-
-  @Input()
-  image!: string;
-
-  @Input()
-  descriptifImage!: string;
-
-  @Input()
-  id!: number;
-
-  @Input()
-  cartes: any[] = [];
+  products: any[] = [];
 
   constructor() { }
 

@@ -4,7 +4,7 @@
     <!-- Condition if pour éviter d'afficher une nouvelle fois la même liste -->
     <!-- Ceci car une boucle for existe déjà la composante Product List qui appelle la composante enfant Product Card -->
     <div *ngIf="index <1">
-        <app-product-list [titre]="'Liste des films'" [titreImage]="film.nom" [image]="film.img" [descriptifImage]="film.synopsis" [id]="film.id" [cartes]="films"></app-product-list>
+        <app-product-list [titre]="'Liste des films'" [products]="films"></app-product-list>
     </div>
 </div>
 
@@ -12,7 +12,7 @@
 <!-- Même commentaires qu'au dessus -->
 <div *ngFor="let album of albums, let index  = index" class="albums">
     <div *ngIf="index <1">
-        <app-product-list [titre]="'Liste des albums'" [titreImage]="album.nom" [image]="album.img" [descriptifImage]="album.details" [id]="album.id" [cartes]="albums"></app-product-list>
+        <app-product-list [titre]="'Liste des albums'" [products]="albums"></app-product-list>
     </div>
 
 </div>
