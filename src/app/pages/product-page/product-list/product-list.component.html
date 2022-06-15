@@ -1,13 +1,19 @@
 <div class="CategorieCarte">
+
+    <!-- Titre de la catégorie (e.g: Liste des films / Liste des albums) -->
     <h2 class="CategorieTitre">
         {{titre}}
     </h2>
+
     <mat-divider></mat-divider>
+
+    <!-- On parcourt le tableau de cartes (e.g: films ou albums) et on appelle la composante enfant : Product Card pour lui passer les attributs du parent -->
     <div class="ListeProduits">
         <ul *ngFor="let carte of cartes">
             <li>
-                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.synopsis"></app-product-card>
+                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.descriptif"></app-product-card>
             </li>
         </ul>
     </div>
+
 </div>
