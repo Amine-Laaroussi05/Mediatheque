@@ -1,11 +1,18 @@
+<!-- On parcourt le tableau de films et on passe les attributs du parent (Product Page) à la composante enfant (Product List) -->
 <div *ngFor="let film of films, let index  = index" class="films">
+
+    <!-- Condition if pour éviter d'afficher une nouvelle fois la même liste -->
+    <!-- Ceci car une boucle for existe déjà la composante Product List qui appelle la composante enfant Product Card -->
     <div *ngIf="index <1">
         <app-product-list [titre]="'Liste des films'" [titreImage]="film.nom" [image]="film.img" [descriptifImage]="film.synopsis" [cartes]="films"></app-product-list>
     </div>
 </div>
 
+
+<!-- Même commentaires qu'au dessus -->
 <div *ngFor="let album of albums, let index  = index" class="albums">
     <div *ngIf="index <1">
         <app-product-list [titre]="'Liste des albums'" [titreImage]="album.nom" [image]="album.img" [descriptifImage]="album.details" [cartes]="albums"></app-product-list>
     </div>
+
 </div>
