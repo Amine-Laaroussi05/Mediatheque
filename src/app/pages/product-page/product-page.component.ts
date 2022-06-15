@@ -22,7 +22,7 @@ export class ProductPageComponent implements OnInit {
     real: "Francis Ford Coppola",
     synopsis: "En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozz `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.",
     annee: 1972,
-    img: "",
+    img: "https://img-4.linternaute.com/U33Gfhf2Daop0ZFmMqbgjsFlbnc=/1500x/smart/85466d7eebed4f248a6c2d4c7f9d436a/ccmcms-linternaute/11411700.jpg",
     details: ""
     },
     {
@@ -31,7 +31,7 @@ export class ProductPageComponent implements OnInit {
     real: "David Fincher",
     synopsis: "Pourvu d'une situation des plus enviable, un jeune homme à bout de nerfs retrouve un équilibre relatif en compagnie de Marla, rencontrée dans un groupe d'entraide. Il fait également la connaissance de Tyler Durden, personnage enthousiaste et charismatique. Ensemble, ils fondent le Fight Club, où ils organisent des combats clandestins et violents, destinés à évacuer l'énergie négative de chacun.",
     annee: 1999,
-    img: "",
+    img: "https://m.media-amazon.com/images/I/71zEIB3ekZL._AC_SY606_.jpg",
     details: ""
     }
     ]
@@ -42,16 +42,16 @@ export class ProductPageComponent implements OnInit {
       nom: "The Dark Side of the Moon",
       artiste: "Pink Floyd",
       annee: 1973,
-      img: "",
-      details: ""
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dark_Side_of_the_Moon_Cover.svg/1200px-The_Dark_Side_of_the_Moon_Cover.svg.png",
+      details: "The Dark Side of the Moon (litt. « la face sombre de la Lune ») est le huitième album studio du groupe britannique de rock progressif Pink Floyd, sorti le 1er mars 1973 chez Harvest Records. Le groupe présente une première version de l'album, principalement développée lors de prestations en public, plusieurs mois avant le début de l'enregistrement. Le concept de l'album repose sur les pressions subies par le groupe au cours de leur vie et traite des problèmes apparents de santé mentale dont souffrait l'ancien membre du groupe, Syd Barrett, ayant quitté la formation en 1968. The Dark Side of the Moon est enregistré en deux sessions en 1972 et 1973 aux studios Abbey Road à Londres."
     },
     {
     id: 5,
     nom: "Space Oddity",
     artiste: "David Bowie",
     annee: 1969,
-    img: "",
-    details: ""
+    img: "https://m.media-amazon.com/images/I/81GaOhfPyFL._SL1300_.jpg",
+    details: "Space Oddity est le deuxième album studio de David Bowie. Il est sorti en novembre 1969 chez Philips Records au Royaume-Uni sous le titre David Bowie et chez Mercury Records aux États-Unis sous le titre Man of Words / Man of Music. Il est plus connu sous le titre Space Oddity qui est utilisé à partir de sa réédition chez RCA Records en 1972."
     }
     ]
 
