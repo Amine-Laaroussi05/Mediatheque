@@ -20,6 +20,9 @@ export class ProductListComponent implements OnInit {
   descriptifImage!: string;
 
   @Input()
+  id!: number;
+
+  @Input()
   cartes: any[] = [];
 
   constructor() { }

@@ -14,5 +14,5 @@
     <!-- Pipe slice pour tronquer le texte qui est trop long et y ajouter trois points de continuation à la fin -->
     <p class="descriptif">{{(descriptif| slice: 0:500) + (descriptif.length > 500? '...' : '')}}</p>
 
-    <button mat-raised-button class="bouton">Détails</button>
+    <button mat-raised-button class="bouton" routerLink="/products/{{id}}">Détails</button>
 </div>

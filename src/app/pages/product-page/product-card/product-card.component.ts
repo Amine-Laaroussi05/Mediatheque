@@ -17,6 +17,9 @@ export class ProductCardComponent implements OnInit {
   @Input()
   descriptif!: string;
 
+  @Input()
+  id!: number;
+
   constructor() { }
 
   ngOnInit(): void {

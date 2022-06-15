@@ -13,6 +13,7 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
 import { ProductCardComponent } from './pages/product-page/product-card/product-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductListComponent } from './pages/product-page/product-list/product-list.component';
+import { DetailsPagesComponent } from './pages/details-pages/details-pages.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProductListComponent } from './pages/product-page/product-list/product-
     HomePageComponent,
     ProductPageComponent,
     ProductCardComponent,
-    ProductListComponent
+    ProductListComponent,
+    DetailsPagesComponent
   ],
   imports: [
     BrowserModule,

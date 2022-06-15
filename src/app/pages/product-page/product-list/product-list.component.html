@@ -11,7 +11,7 @@
     <div class="ListeProduits">
         <ul *ngFor="let carte of cartes">
             <li>
-                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.descriptif"></app-product-card>
+                <app-product-card [titre]="carte.nom" [image]="carte.img" [descriptif]="carte.descriptif" [id]="carte.id"></app-product-card>
             </li>
         </ul>
     </div>
